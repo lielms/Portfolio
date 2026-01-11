@@ -2,6 +2,6 @@ title: Portfolio
 theme: minima
 
 header_pages:
-  - SoftwareTestingArtifactEnhancement.md
-  - Algorithm-DataStructuresArtifactEnhancement.md
-  - DatabaseArtifactEnhancement.md
+  - SoftwareTestingArtifactEnhancement.md  
+  - Algorithm-DataStructuresArtifactEnhancement.md  
+  - DatabaseArtifactEnhancement.md  
