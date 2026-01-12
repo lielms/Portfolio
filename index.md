@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portfolio
+title: Home
 nav_order: 0
 ---
 
