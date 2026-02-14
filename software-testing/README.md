@@ -12,7 +12,8 @@ Maybe you can mention me or this repo in the acknowledgements too
 - [About the Project](#star2-about-the-project)
   * [Tech Stack](#space_invader-tech-stack)
   * [Features](#dart-features)
-- [Usage](#eyes-usage)
+- [Usage & Diagnostics](#eyes-usage)
+- [Testing Stategy](#wrench-usage)
 - [Roadmap](#compass-roadmap)
 - [Contact](#handshake-contact)
 - [Acknowledgements](#gem-acknowledgements)
@@ -22,9 +23,9 @@ Maybe you can mention me or this repo in the acknowledgements too
 <!-- About the Project -->
 ## :star2: About the Project
 
-This project is a data structures assignment that I have improved upon. Originally developed as a Singly Linked List for CS 300, this artifact has been enhanced into a Generic Doubly Linked List library.
+Originally developed for CS 320: Software Testing, Automation, and Quality Assurance, this project evolved from a basic CRUD application into a robust, testable diagnostic framework.
 
-The system is designed to handle large datasets (specifically bid data from CSV files) with high efficiency. By implementing a recursive Merge Sort algorithm, the project demonstrates advanced algorithmic principles, moving beyond linear traversal to achieve \(O(n \log n)\) performance.
+The enhancement focuses on "Shift-Left" testing principles by centralizing validation logic, implementing custom exceptions for rich error reporting, and utilizing Dependency Injection to allow for state injection and failure simulation during automated testing.
 
 <!-- TechStack -->
 ### :space_invader: Tech Stack
@@ -32,64 +33,64 @@ The system is designed to handle large datasets (specifically bid data from CSV 
 <details>
   <summary>Client</summary>
   <ul>
-    <li>C++</li>
-   <li>Standard Template Library (STL)</li>
-   <li>CSVParser for data ingestion</li>
+    <li>Java</li>
+   <li>JUnit 5</li>
+   <li>Parameterized Testing</li>
+   <li>Logging API</li>
+    <li>Dependency Injection</li>
   </ul>
 </details>
 
 <!-- Features -->
 ### :dart: Features
 
-- Generic Templates: The DoublyLinkedList<T> class supports any data type, not just Bids.
-- Bi-directional Traversal: Uses prev and next pointers for flexible navigation.
-- Efficient Sorting: Integrated Merge Sort providing \(O(n \log n)\) time complexity.\
-- Robust CRUD: Support for appending, searching, and safe removal of nodes.
+- Centralized Validation: Unified ContactValidator ensures consistent data integrity across constructors and updates.
+- Diagnostic Exceptions: Custom ValidationException provides the specific field and reason for failure, improving debuggability.
+- Repository Abstraction: Decoupled storage via ContactRepository interface allows for FailingRepository mocks in edge-case testing.
 
 
 <!-- Usage -->
 ## :eyes: Usage
 
-Example of how to use the templated list in your C++ code:
+Example of catching diagnostic validation errors:
 
 ```javascript
-// Initialize the list
-DoublyLinkedList<Bid> bidList;
-
-// Add data
-bidList.Append(newBid);
-
-// Sort using a lambda comparator
-bidList.Sort([](const Bid& a, const Bid& b) {
-    return a.amount < b.amount;
-});
-
-// Search for a specific record
-Bid* found = bidList.Search([&id](const Bid& b) {
-    return b.bidId == id;
-});
+try {
+    ContactService service = new ContactService(new ArrayContactRepository());
+    service.updateContact("12345", "John", "Doe", "123", "Invalid Phone");
+} catch (ValidationException e) {
+    // Output: Failed on phoneNumber: Length must be 10
+    System.out.println("Failed on " + e.getField() + ": " + e.getReason());
+    
+    // Metrics tracking for audit
+    ValidationMetrics.getFailureCount(); 
+}
 ```
+
+<!-- Testing Strategy -->
+ * Parameterized Tests: Validates boundary conditions (e.g., exactly 10-digit phones, 30-char addresses) using @MethodSource.
+ * Negative Testing: Uses FailingRepository to ensure the service gracefully handles storage failures.
+ * Concurrency Testing: ValidationMetrics uses AtomicInteger to ensure thread-safe failure tracking.
+
 
 <!-- Roadmap -->
 ## :compass: Roadmap
 
-* [x] Refactor Singly to Doubly Linked List
-* [x] Implement Class Templates
-* [x] Integrate Recursive Merge Sort
-* [ ] Add Iterator Support (C++ STL style)
-
+* [x] Centralize validation into shared validator
+* [x] Implement custom ValidationException
+* [x] Introduce Repository pattern for testability
 
 <!-- Contact -->
 ## :handshake: Contact
 
 Liel Simon - liel.simon@snhu.edu
 
-Project Link: [https://lielms.github.io/](https://lielms.github.io/)
+Portfolio: [https://lielms.github.io/](https://lielms.github.io/)
 
 
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements
 
- - SNHU CS 300: Data Structures and Algorithms, Module 3 Linked List Assignment
+ - SNHU CS 320: Software Testing, Automation, and Quality Assurance
  - readme template : https://github.com/Louis3797/awesome-readme-template/blob/main/README.md
 
