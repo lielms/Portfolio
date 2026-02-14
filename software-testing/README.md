@@ -13,7 +13,7 @@ Maybe you can mention me or this repo in the acknowledgements too
   * [Tech Stack](#space_invader-tech-stack)
   * [Features](#dart-features)
 - [Usage & Diagnostics](#eyes-usage)
-- [Testing Stategy](#wrench-usage)
+- [Testing Stategy](#wrench-testing-strategy)
 - [Roadmap](#compass-roadmap)
 - [Contact](#handshake-contact)
 - [Acknowledgements](#gem-acknowledgements)
