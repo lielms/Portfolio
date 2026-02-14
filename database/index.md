@@ -1,5 +1,5 @@
 ---
-title: Database Artifact Enhancement
+title: Database Enhancement
 nav_order: 3
 ---
 
