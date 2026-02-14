@@ -8,7 +8,3 @@ nav_order: 0
 
 Welcome to my portfolio.
 
-## Projects
-- [Software Testing](software-testing/)
-- [Algorithms & Data Structures](algorithms-data-structures/)
-- [Database](database/)
