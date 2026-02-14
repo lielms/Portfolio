@@ -84,6 +84,7 @@ python3 Thermostat.py
 * [x] Integrate PyMongo for database connectivity
 * [x] Implement Asynchronous Threaded Logging
 * [x] Design NoSQL schema for IoT events
+* [ ] Build Web Dashboard for data visualization
 
 <!-- Contact -->
 ## :handshake: Contact
