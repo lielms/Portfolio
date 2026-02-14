@@ -1,5 +1,5 @@
 ---
-title: Algorithm & Data Structures Artifact Enhancement
+title: Algorithm & Data Structures
 nav_order: 2
 ---
 
