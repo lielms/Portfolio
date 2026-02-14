@@ -3,7 +3,7 @@ title: Algorithm & Data Structures
 nav_order: 2
 ---
 
-# Algorithm & Data Structures Artifact Enhancement
+# Algorithm & Data Structures Enhancement
 
 <!-- Table of Contents -->
 # Table of Contents
