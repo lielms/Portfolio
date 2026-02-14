@@ -10,6 +10,6 @@ Welcome to my portfolio.
 
 ## Projects
 
-- [Software Testing](software-testing/2/)
+- [Software Testing](software-testing/)
 - [Algorithms & Data Structures](algorithms-data-structures/)
 - [Database](database/)
