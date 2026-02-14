@@ -90,7 +90,7 @@ python3 Thermostat.py
 
 Liel Simon - liel.simon@snhu.edu
 
-Portfolio: [https://lielms.github.io/](https://lielms.github.io/)
+Portfolio: [https://github.com/lielms/lielms.github.io/tree/main/database](https://github.com/lielms/lielms.github.io/tree/main/database)
 
 
 <!-- Acknowledgments -->
