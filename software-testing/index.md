@@ -85,7 +85,7 @@ try {
 
 Liel Simon - liel.simon@snhu.edu
 
-Portfolio: [https://lielms.github.io/](https://lielms.github.io/)
+Portfolio: [https://github.com/lielms/lielms.github.io/tree/main/software-testing](https://github.com/lielms/lielms.github.io/tree/main/software-testing)
 
 
 <!-- Acknowledgments -->
