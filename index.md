@@ -10,6 +10,6 @@ Welcome to my portfolio.
 
 ## Projects
 
-- [Project 1](project1/)
-- [Project 2](project2/)
-- [Project 3](project3/)
+- [Software Testing](software-testing/2/)
+- [Algorithms & Data Structures](algorithms-data-structures/)
+- [Database](database/)
