@@ -68,6 +68,7 @@ try {
 ```
 
 <!-- Testing Strategy -->
+## :wrench: Testing Strategy
  * Parameterized Tests: Validates boundary conditions (e.g., exactly 10-digit phones, 30-char addresses) using @MethodSource.
  * Negative Testing: Uses FailingRepository to ensure the service gracefully handles storage failures.
  * Concurrency Testing: ValidationMetrics uses AtomicInteger to ensure thread-safe failure tracking.
