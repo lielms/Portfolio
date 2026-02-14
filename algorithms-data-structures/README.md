@@ -1,5 +1,5 @@
 <!-- Table of Contents -->
-# :notebook_with_decorative_cover: Table of Contents
+# Table of Contents
 
 - [About the Project](#star2-about-the-project)
   * [Tech Stack](#space_invader-tech-stack)
@@ -12,14 +12,14 @@
   
 
 <!-- About the Project -->
-## :star2: About the Project
+## About the Project
 
 This project is a data structures assignment that I have improved upon. Originally developed as a Singly Linked List for CS 300, this artifact has been enhanced into a Generic Doubly Linked List library.
 
 The system is designed to handle large datasets (specifically bid data from CSV files) with high efficiency. By implementing a recursive Merge Sort algorithm, the project demonstrates advanced algorithmic principles, moving beyond linear traversal to achieve \(O(n \log n)\) performance.
 
 <!-- TechStack -->
-### :space_invader: Tech Stack
+### Tech Stack
 
 <details>
   <summary>Client</summary>
@@ -31,7 +31,7 @@ The system is designed to handle large datasets (specifically bid data from CSV 
 </details>
 
 <!-- Features -->
-### :dart: Features
+### Features
 
 - Generic Templates: The DoublyLinkedList<T> class supports any data type, not just Bids.
 - Bi-directional Traversal: Uses prev and next pointers for flexible navigation.
@@ -40,7 +40,7 @@ The system is designed to handle large datasets (specifically bid data from CSV 
 
 
 <!-- Usage -->
-## :eyes: Usage
+## Usage
 
 Example of how to use the templated list in your C++ code:
 
@@ -63,7 +63,7 @@ Bid* found = bidList.Search([&id](const Bid& b) {
 ```
 
 <!-- Roadmap -->
-## :compass: Roadmap
+## Roadmap
 
 * [x] Refactor Singly to Doubly Linked List
 * [x] Implement Class Templates
@@ -72,7 +72,7 @@ Bid* found = bidList.Search([&id](const Bid& b) {
 
 
 <!-- Contact -->
-## :handshake: Contact
+## Contact
 
 Liel Simon - liel.simon@snhu.edu
 
@@ -80,7 +80,7 @@ Project Link: [https://lielms.github.io/](https://lielms.github.io/)
 
 
 <!-- Acknowledgments -->
-## :gem: Acknowledgements
+## Acknowledgements
 
  - SNHU CS 300: Data Structures and Algorithms, Module 3 Linked List Assignment
  - readme template : https://github.com/Louis3797/awesome-readme-template/blob/main/README.md
