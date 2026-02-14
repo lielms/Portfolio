@@ -49,7 +49,7 @@ This project is an enhanced version of the final thermostat prototype from CS 35
 - Aggregation Engine: Includes built-in methods for calculating min/max/avg temperatures over a 24-hour window using MongoDB pipelines.
 
 <!-- Database Design -->
-### :computer: Database  Design
+### :computer: Database Design
 
 The system utilizes a flexible NoSQL schema to handle the continuous stream of IoT data:
 
