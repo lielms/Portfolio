@@ -50,8 +50,7 @@ The system is designed to handle large datasets (specifically bid data from CSV 
 <!-- Usage -->
 ## :eyes: Usage
 
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
-
+Example of how to use the templated list in your C++ code:
 
 ```javascript
 // Initialize the list
