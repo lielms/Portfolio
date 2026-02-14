@@ -4,8 +4,12 @@ title: Home
 nav_order: 0
 ---
 
-Hello,
+# Liel Simon
 
-My name is Liel Simon, welcome to my portfolio.
+Welcome to my portfolio.
 
-Use the sidebar to explore my projects.
+## Projects
+
+- [Project 1](project1/)
+- [Project 2](project2/)
+- [Project 3](project3/)
