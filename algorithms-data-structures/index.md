@@ -83,7 +83,7 @@ Bid* found = bidList.Search([&id](const Bid& b) {
 
 Liel Simon - liel.simon@snhu.edu
 
-Project Link: [https://lielms.github.io/](https://lielms.github.io/)
+Project Link: [https://github.com/lielms/lielms.github.io/tree/main/algorithms-data-structures](https://github.com/lielms/lielms.github.io/tree/main/algorithms-data-structures)
 
 
 <!-- Acknowledgments -->
