@@ -54,39 +54,30 @@ Use this space to tell a little more about your project and how it can be used. 
 
 
 ```javascript
-import Component from 'my-project'
+// Initialize the list
+DoublyLinkedList<Bid> bidList;
 
-function App() {
-  return <Component />
-}
+// Add data
+bidList.Append(newBid);
+
+// Sort using a lambda comparator
+bidList.Sort([](const Bid& a, const Bid& b) {
+    return a.amount < b.amount;
+});
+
+// Search for a specific record
+Bid* found = bidList.Search([&id](const Bid& b) {
+    return b.bidId == id;
+});
 ```
 
 <!-- Roadmap -->
 ## :compass: Roadmap
 
-* [x] Finish Enhancements
-
-
-<!-- Contributing -->
-## :wave: Contributing
-
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
-</a>
-
-
-Contributions are always welcome!
-
-<!-- FAQ -->
-## :grey_question: FAQ
-
-- Question 1
-
-  + Answer 1
-
-- Question 2
-
-  + Answer 2
+* [x] Refactor Singly to Doubly Linked List
+* [x] Implement Class Templates
+* [x] Integrate Recursive Merge Sort
+* [ ] Add Iterator Support (C++ STL style)
 
 
 <!-- Contact -->
@@ -94,11 +85,12 @@ Contributions are always welcome!
 
 Liel Simon - liel.simon@snhu.edu
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+Project Link: [https://lielms.github.io/](https://lielms.github.io/)
 
 
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements
 
  - SNHU CS 300: Data Structures and Algorithms, Module 3 Linked List Assignment
+ - readme template : https://github.com/Louis3797/awesome-readme-template/blob/main/README.md
 
