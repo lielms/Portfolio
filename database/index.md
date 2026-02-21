@@ -7,6 +7,8 @@ nav_order: 3
 
 Repo Link [https://github.com/lielms/lielms.github.io/tree/main/database](https://github.com/lielms/lielms.github.io/tree/main/database)
 
+Code Review Link [https://youtu.be/sNzcBlWeVJc?si=0B6205pcPXODd1Xm&t=389](https://youtu.be/sNzcBlWeVJc?si=0B6205pcPXODd1Xm&t=389)
+
 <!-- Table of Contents -->
 # Table of Contents
 
