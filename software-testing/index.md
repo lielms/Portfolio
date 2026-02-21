@@ -6,6 +6,8 @@ nav_order: 1
 
 Repo Link [https://github.com/lielms/lielms.github.io/tree/main/software-testing](https://github.com/lielms/lielms.github.io/tree/main/software-testing)
 
+Code Review link [https://www.youtube.com/watch?v=sNzcBlWeVJc](https://www.youtube.com/watch?v=sNzcBlWeVJc)
+
 <!-- Table of Contents -->
 # Table of Contents
 
