@@ -7,8 +7,7 @@ nav_order: 0
 
 # Hello, my name is Liel Simon. Welcome to my professional portfolio.
 
-# Use the navigation links on the sidebar to explore my projects, coursework, and documentation.
-
+## Use the navigation links on the sidebar to explore my projects, coursework, and documentation.
 
 
 ## Professional Self-Assessment
